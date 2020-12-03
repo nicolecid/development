@@ -1,14 +1,136 @@
 <!doctype html>
 
 <html>
-  <head>
-    <title>INSERT TITLE HERE!</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
 
-  <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
+<head>
+  <title>Development</title>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+
+<body style="text-align: center; padding: 5%">
+  <section id=title>
+    <h1>
+      Development
+    </h1>
+  </section>
+
+  <section id=navbar>
+    <div class=nav>
+      <a class="active" href=#context>Context</a>
+      <a href=#about>About</a>
+      <a href=#conclusion>Conclusion</a>
+      <a href=#data>Candle Co</a>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <img src="logo.png" style="width: 50%; height: auto;">
+
+  <section id=context href=#context>
+    <div class=container>
+      <h2>
+        Context
+      </h2>
+      <p>
+
+        The goal of this project was to create an application using react. React is a front end, JavaScript library that
+        is used for
+        building user interfaces or components of these. The interface had to contain two filtering and one sorting
+        mechanisms, an aggregator section,
+        and a minimum of 12 items displayed. Each item had to contain a picture of the product. This project was implemented using React Hooks, or "functional" React instead 
+        of using class components. The reason behind this decision was solely that I am more experienced with the former than the latter. 
+        <br>
+        <br>
+
+        The interface I chose to create was a candle shop called Candle Co. This page consists of two main sections, the
+        home page (pictured above) and the product
+        display (pictured below). Moreover, the application displays 14 candles, each of which represents a city from
+        around the world. Some of these are New York, Paris, Tokyo, and Helsinki.
+
+      </p>
+      <br>
+      <br>
+      <img src="candleco.png" style="width: 80%; height: auto;">
+    </div>
+  </section>
+
+
+  <section id=hypo href=#about>
+    <div class=container>
+      <h2>
+        About The Interface
+      </h2>
+      <p>
+        This user interface consists of 2 filtering options and one sorting option. All 3 of these are under the title
+        'Filters'. The user can filter the candles by scent or by size, or they can sort the candles
+        by their price being from lowest to highest or vice versa. 
+        <br>
+        <br>
+        Furthermore, below the Filters, there is the section where the products are displayed. The candles are aligned in three rows. 
+        On the upper left part of the display is the shopping cart. This has the label 'Shopping Cart', and it displays the sum of the Total Price of the items in the cart. 
+        When an item is added to the cart, this item is displayed in the cart and denoted by a lavender background instead of white like in the display. Additionally, when an item is added to the cart, 
+        three other buttons appear: a '+' that adds one more of this same item to the cart, a '-' that removes one of this item from the cart, and 'Remove All' that clears the cart. 
+        <br>
+        <br>
+        When an item is added to the shopping cart, and the sorting filters are applies, the interface looks like this: 
+      </p>
+      <br>
+      <br>
+      <img src="sort.png" style="width: 80%; height: auto;">
+
+    </div>
+  </section>
+
+  <section id=link href=#link>
+    <div class=container>
+      <h2>
+        Links
+      </h2>
+      <p>
+        Below you can find the link to the GitHub Repository where the code is available, and the link to the interface, Candle Co. 
+        <br>
+        <br>
+        
+        <button onclick = "location.href='https://github.com/nicolecid/candle.git'">
+          GitHub
+        </button>
+        <button onclick = "location.href='https://glacial-atoll-42873.herokuapp.com/#full'" >
+          Candle Co
+        </button>
+      </p>
+    </div>
+  </section>
+
+  <section id=link href=#link>
+    <div class=container>
+      <h2>
+        Conclusion
+      </h2>
+      <br>
+      <p>
+        In conclusion, it was very rewarding using React to create this interface. 
+        React faciliated the implementation of this interface. 
+        Moreover, this project challenged me to create features I had not implemented in the past.
+      </p>
+    </div>
+  </section>
+
+  
+
+
+  <setion id=footer>
+    <div class=container>
+      <footer>
+
+      </footer>
+    </div>
+  </setion>
+</body>
+
 </html>
